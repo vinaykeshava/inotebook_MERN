@@ -1,8 +1,8 @@
 const mongoose = require('mongoose');
 const content = new mongoose.Schema({
-    username: { type: string },
-    title: { type: String },
-    body: { type: String },
+    username: { type: String },
+    id: { type: String },
+    note: { type: String },
 })
 
 const Content = mongoose.model('Content', content);
