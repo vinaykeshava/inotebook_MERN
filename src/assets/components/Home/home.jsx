@@ -25,6 +25,11 @@ export default function Home(){
                 To see your posts click Posts button in Navbar
                 </Typography>
             </Grid>
+            <Grid item>
+                <Typography>
+                To logout Click on logout button in Navbar
+                </Typography>
+            </Grid>
         </Grid>
     )
 }

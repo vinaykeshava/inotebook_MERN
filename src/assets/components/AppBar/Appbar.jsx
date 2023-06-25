@@ -24,6 +24,11 @@ export default function AppBar() {
     const handleNotes = () => {
       navigate('/notes');
     }
+    const handleLogout = () => {
+      localStorage.removeItem('token');
+      alert("Sucessfully Log out");
+      window.location.reload();
+    }
 
   return (
     <Box sx={{ flexGrow: 1 }}>
@@ -37,6 +42,7 @@ export default function AppBar() {
           <Button variant='contained' onClick={handleLogin} sx={{margin: 2}} >Login</Button>
           <Button variant='outlined' onClick={handleSignUp} sx={{background: 'white', margin: 2}}>Sign Up</Button>
           <Button variant='outlined' onClick={handleNotes} sx={{background: 'white', margin: 2}}>Posts</Button>
+          <Button variant='contained' onClick={handleLogout} sx={{margin: 2}} >Log out</Button>
         </Toolbar>
       </MuiAppBar>
     </Box>
