@@ -1,8 +1,9 @@
-#MERN Stack Project - Post Management
+# MERN Stack Project - Post Management
 This is a MERN (MongoDB, Express.js, React.js, Node.js) stack project that allows users to manage posts. Users can perform actions such as login, signup and view, update, delete,  create posts.
 
+---
 
-##Prerequisites
+## Prerequisites
 Before running the project, make sure you have the following prerequisites installed on your machine:
 
 
@@ -17,8 +18,9 @@ C:\> mongo
 Frontend Setup
 The frontend of the project is built with Vite. To run the frontend, follow these steps:
 
+---
 
-##to run frontend
+## to run frontend
 Open a terminal or command prompt.
 Navigate to the root directory of the project.
 Run the following command to install the dependencies:
@@ -35,8 +37,9 @@ This will start the frontend application and you can access it in your browser a
 Backend Setup
 The backend of the project is built with Node.js and Express.js. To run the backend, follow these steps:
 
+---
 
-##to run backend
+## to run backend
 Open a new terminal or command prompt.
 Navigate to the backend directory of the project.
 Run the following command to install the dependencies:
