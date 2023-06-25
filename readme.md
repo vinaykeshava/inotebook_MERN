@@ -20,7 +20,7 @@ The frontend of the project is built with Vite. To run the frontend, follow thes
 
 ---
 
-## to run frontend
+## To run frontend
 Open a terminal or command prompt.
 Navigate to the root directory of the project.
 Run the following command to install the dependencies:
@@ -39,7 +39,7 @@ The backend of the project is built with Node.js and Express.js. To run the back
 
 ---
 
-## to run backend
+## To run backend
 Open a new terminal or command prompt.
 Navigate to the backend directory of the project.
 Run the following command to install the dependencies:
