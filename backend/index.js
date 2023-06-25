@@ -51,12 +51,12 @@ app.post("/app/login", function (req, res) {
                         const token = jwt.sign({ username }, secretKey, { expiresIn: '1h' })
                         res.status(200).json({ token: token, message: "Login Success" })
                     } else {
-                        res.status(403).send("Wrong Password!")
+                        res.status(403).json({message: "Wrong Password!"})
                     }
                 })
         })
         .catch(error => {
-            res.status(500).send("Bad Luck")
+            res.status(500).json({message: "No such User"})
         })
 })
 
@@ -153,7 +153,5 @@ app.get('/app/content/getallpost', (req, res) => {
             res.status(400).json({ message: "Internal Server Error" })
         })
 })
-
-
 
 app.listen(3000)

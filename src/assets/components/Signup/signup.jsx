@@ -119,10 +119,6 @@ export default function Signup() {
                     <Button className={classes.button} variant="contained" type="submit">Sign Up</Button>
                 </form>
             </Grid>
-            <Grid item >
-                <Typography>User Name: {userName}</Typography>
-                <Typography>Password: {userPassword}</Typography>
-            </Grid>
         </Grid>
     )
 }

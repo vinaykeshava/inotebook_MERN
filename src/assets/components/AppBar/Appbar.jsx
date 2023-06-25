@@ -36,7 +36,7 @@ export default function AppBar() {
           {/* </Link> */}
           <Button variant='contained' onClick={handleLogin} sx={{margin: 2}} >Login</Button>
           <Button variant='outlined' onClick={handleSignUp} sx={{background: 'white', margin: 2}}>Sign Up</Button>
-          <Button variant='outlined' onClick={handleNotes} sx={{background: 'white', margin: 2}}>Notes</Button>
+          <Button variant='outlined' onClick={handleNotes} sx={{background: 'white', margin: 2}}>Posts</Button>
         </Toolbar>
       </MuiAppBar>
     </Box>

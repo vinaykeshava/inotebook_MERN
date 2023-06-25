@@ -30,12 +30,10 @@ export default function Login() {
                 alert(response.data.message) 
             })
             .catch(error => {
-                alert(error)
+                alert(error.response.data.message)
                 console.error(error);
             });
     }
-
-
 
     return (
         <Grid container alignItems="center" justifyContent="center" flexDirection="column" spacing={3}>
@@ -65,10 +63,6 @@ export default function Login() {
                         }} />
                     <Button className={classes.button} variant="contained" type="submit">Login</Button>
                 </form>
-            </Grid>
-            <Grid item >
-                <Typography>User Name: {userName}</Typography>
-                <Typography>Password: {userPassword}</Typography>
             </Grid>
         </Grid>
     )
